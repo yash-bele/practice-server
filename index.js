@@ -5,7 +5,7 @@ const router = require('./router/router');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.url_port || 3001;
+const port = process.env.PORT || 3001;
 const start = async () => {
   try {
     await db(process.env.url_db);
