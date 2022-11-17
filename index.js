@@ -21,4 +21,4 @@ app.use(express.json());
 app.use(cors());
 
 // router
-app.use('/api/data', router);
+app.use('/api', router);
