@@ -5,6 +5,9 @@ const schema = mongoose.Schema({
     type: String,
     trim: true,
   },
+  id: {
+    type: String,
+  },
 });
 
 module.exports = mongoose.model('collection', schema);
